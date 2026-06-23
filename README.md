@@ -6,7 +6,7 @@
 
 仓库内容以课程实验为主，主要包括 MATLAB 源代码、Live Script 文件、Word 导出文件以及实验报告，方便进行课程学习、实验复习和版本管理。
 
-## Repository Structure
+## 仓库构成
 
 ```text
 hitsz-statistics-and-data-analysis/
@@ -15,9 +15,11 @@ hitsz-statistics-and-data-analysis/
     ├── src/
     │   └── Taskn.m 实验任务对应的 MATLAB 源代码文件
     │
-    ├── export/ 由 MATLAB Live Script 导出的 .mlx 文件和对应的 Word 文档
-    │   ├── Taskn.mlx .mlx 文件仅用于导出为 Word
-    │   └── Taskn.docx 由 .mlx 文件导出的Word文档，便于将源代码粘贴到实验报告 Word 文档中
+    ├── bin/ 由 MATLAB Live Script 导出的 .mlx 文件和对应的 Word 文档
+    │   ├── docx
+    │   │   └── Taskn.docx 由 .mlx 文件导出的Word文档，便于将源代码粘贴到实验报告 Word 文档中
+    │   └── mlx
+    │       └── Taskn.mlx .mlx 文件仅用于导出为 Word
     │
     ├── Experiment_m_Report.docx
     └── Experiment_m_Report.pdf
